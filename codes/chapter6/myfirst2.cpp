@@ -1,5 +1,5 @@
 #include <iostream>
-#include "myfirst.hpp"
+#include "myfirst2.hpp"
 
 template <typename T>
 void print_typeof(T const &x)
@@ -7,4 +7,3 @@ void print_typeof(T const &x)
     std::cout << typeid(x).name() << std::endl;
 }
 
-// template void print_typeof(int const &);

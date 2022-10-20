@@ -1,7 +1,8 @@
-#ifndef __MYFIRST_HPP_
-#define __MYFIRST_HPP_
+#ifndef __MYFIRST2_HPP_
+#define __MYFIRST2_HPP_
 #include <iostream>
 #include <typeinfo>
+export
 template <typename T>
 void print_typeof(T const &x);
 
